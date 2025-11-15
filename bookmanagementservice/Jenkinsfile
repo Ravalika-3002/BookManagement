@@ -15,7 +15,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Ravalika-3002/BookManagement.git'
+                git branch: 'master', url: 'https://github.com/Ravalika-3002/BookManagement.git'
             }
         }
 
